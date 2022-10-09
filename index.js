@@ -8,7 +8,7 @@ buttons.map(button => {
             case 'C':
                 display.innerText = '';
                 break;
-            case 'X':
+            case 'Clear':
                 if (display.innerText) {
                     display.innerText = display.innerText.slice(0, -1);
                 }
